@@ -13,6 +13,7 @@
 		C3CAD17525D17BA000E16D64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3CAD17425D17BA000E16D64 /* Preview Assets.xcassets */; };
 		C3CAD18025D17BA000E16D64 /* FixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CAD17F25D17BA000E16D64 /* FixTests.swift */; };
 		C3CAD18B25D17BA000E16D64 /* FixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CAD18A25D17BA000E16D64 /* FixUITests.swift */; };
+		C3CAD19C25D17BC800E16D64 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3CAD19B25D17BC800E16D64 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		C3CAD18625D17BA000E16D64 /* FixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CAD18A25D17BA000E16D64 /* FixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixUITests.swift; sourceTree = "<group>"; };
 		C3CAD18C25D17BA000E16D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3CAD19B25D17BC800E16D64 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		C3CAD17325D17BA000E16D64 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				C3CAD19B25D17BC800E16D64 /* Launch Screen.storyboard */,
 				C3CAD17425D17BA000E16D64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -233,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3CAD19C25D17BC800E16D64 /* Launch Screen.storyboard in Resources */,
 				C3CAD17525D17BA000E16D64 /* Preview Assets.xcassets in Resources */,
 				C3CAD17225D17BA000E16D64 /* Assets.xcassets in Resources */,
 			);
